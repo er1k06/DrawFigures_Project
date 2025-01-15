@@ -36,21 +36,21 @@ class Program
         }
         else if (bind == 3)
         {
-            int height = 5; // Total height of the diamond
-            int middle = (height + 1) / 2; // Middle row of the diamond
+            int height = 5; // 
+            int middle = (height + 1) / 2; 
 
-            // Upper part of the diamond
+            
             for (int i = 1; i <= middle; i++)
             {
-                Console.Write(new string(' ', middle - i)); // Leading spaces
-                Console.WriteLine(new string('*', 2 * i - 1)); // Stars
+                Console.Write(new string(' ', middle - i)); 
+                Console.WriteLine(new string('*', 2 * i - 1));
             }
 
-            // Lower part of the diamond
+           
             for (int i = middle - 1; i > 0; i--)
             {
-                Console.Write(new string(' ', middle - i)); // Leading spaces
-                Console.WriteLine(new string('*', 2 * i - 1)); // Stars
+                Console.Write(new string(' ', middle - i)); 
+                Console.WriteLine(new string('*', 2 * i - 1)); 
             }
         }
     }
