@@ -1,2 +1,2 @@
-# project-1-
+# DrawFigures_Project
 Choose a figure
