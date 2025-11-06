@@ -1,4 +1,4 @@
-﻿namespace figures
+﻿namespace figuresChoose
 {
     internal class Program
     {
@@ -132,4 +132,5 @@
     }
 }
     
+
 
