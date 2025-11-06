@@ -1,4 +1,4 @@
-﻿namespace brat
+﻿namespace figures
 {
     internal class Program
     {
@@ -132,3 +132,4 @@
     }
 }
     
+
